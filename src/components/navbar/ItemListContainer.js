@@ -2,10 +2,11 @@ import React from "react";
 
 const ItemListContainer = (props) => {
     return (
-        console.log(props)
-/*        <div>
-            <h3>{greeting}</h3>
-        </div>*/
+        <>
+        <div>
+            <h3>{props.greeting}</h3>
+        </div>
+        </>
     )
 }
 

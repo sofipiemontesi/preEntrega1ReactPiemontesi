@@ -2,6 +2,7 @@ import React from "react";
 import "./NavBar.css";
 import CartWidget from "./CartWidget";
 
+
 const NavBar= ()=>{
     return(
         <div className="navBar">
